@@ -23,6 +23,14 @@ Object.assign(registry, {
   kRsaVerificationKey2018,
 })
 
+// exported values
+Object.assign(registry, {
+  Ed25519VerificationKey2018: kEd25519VerificationKey2018,
+  EdDsaSAPublicKeySecp256k1: kEdDsaSAPublicKeySecp256k1,
+  RsaVerificationKey2018: kRsaVerificationKey2018,
+})
+
+// disable destructive methods
 Object.assign(registry, {
   add: warn('add'),
   clear: warn('clear'),
