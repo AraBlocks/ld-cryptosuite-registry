@@ -1,0 +1,21 @@
+{
+  "name": "ld-cryptosuite-registry",
+  "version": "1.0.0",
+  "description": "Linked Data Cryptographic Suite Registry as a module",
+  "main": "index.js",
+  "scripts": {
+    "test": ":"
+  },
+  "keywords": [
+    "linked",
+    "data",
+    "cryptographic",
+    "suite",
+    "registry",
+    "ld",
+    "crypto",
+    "suite"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT"
+}
