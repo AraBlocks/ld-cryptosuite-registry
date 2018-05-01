@@ -1,5 +1,8 @@
 'use strict'
 
+// https://w3c-ccg.github.io/didm-veres-one/
+const kEd25519SignatureAuthentication2018 = 'Ed25519SignatureAuthentication2018'
+
 // https://w3c-dvcg.github.io/lds-ed25519-2018/
 const kEd25519VerificationKey2018 = 'Ed25519VerificationKey2018'
 
@@ -14,6 +17,7 @@ const kMerkleProof2017 = 'MerkleProof2017'
 
 // ld-cryptosuite-registry set
 const registry = new Set([
+  kEd25519SignatureAuthentication2018,
   kEd25519VerificationKey2018,
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
@@ -22,6 +26,7 @@ const registry = new Set([
 
 // exported constants
 Object.assign(registry, {
+  kEd25519SignatureAuthentication2018,
   kEd25519VerificationKey2018,
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
@@ -30,6 +35,7 @@ Object.assign(registry, {
 
 // exported values
 Object.assign(registry, {
+  Ed25519SignatureAuthentication2018: kEd25519SignatureAuthentication2018,
   Ed25519VerificationKey2018: kEd25519VerificationKey2018,
   EdDsaSAPublicKeySecp256k1: kEdDsaSAPublicKeySecp256k1,
   RsaVerificationKey2018: kRsaVerificationKey2018,
