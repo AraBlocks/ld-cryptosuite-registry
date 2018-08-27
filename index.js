@@ -25,9 +25,11 @@ const kSecp256k1SignatureAuthentication2018 = 'Secp256k1SignatureAuthentication2
 const registry = new Set([
   kEd25519SignatureAuthentication2018,
   kEd25519VerificationKey2018,
+
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
   kMerkleProof2017,
+
   kSecp256k1VerificationKey2018,
   kSecp256k1SignatureAuthentication2018
 ])
@@ -36,9 +38,11 @@ const registry = new Set([
 Object.assign(registry, {
   kEd25519SignatureAuthentication2018,
   kEd25519VerificationKey2018,
+
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
   kMerkleProof2017,
+
   kSecp256k1VerificationKey2018,
   kSecp256k1SignatureAuthentication2018
 })
@@ -47,10 +51,12 @@ Object.assign(registry, {
 Object.assign(registry, {
   Ed25519SignatureAuthentication2018: kEd25519SignatureAuthentication2018,
   Ed25519VerificationKey2018: kEd25519VerificationKey2018,
+
   EdDsaSAPublicKeySecp256k1: kEdDsaSAPublicKeySecp256k1,
   RsaVerificationKey2018: kRsaVerificationKey2018,
   MerkleProof2017: kMerkleProof2017,
-  Secp256k1VerificationKey2018k: kSecp256k1VerificationKey2018,
+
+  Secp256k1VerificationKey2018: kSecp256k1VerificationKey2018,
   Secp256k1SignatureAuthentication2018: kSecp256k1SignatureAuthentication2018,
 })
 
