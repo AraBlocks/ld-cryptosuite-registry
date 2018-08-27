@@ -1,6 +1,6 @@
 {
   "name": "ld-cryptosuite-registry",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Linked Data Cryptographic Suite Registry as a module",
   "main": "index.js",
   "scripts": {
