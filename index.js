@@ -21,6 +21,8 @@ const kSecp256k1VerificationKey2018 = 'Secp256k1VerificationKey2018'
 // https://github.com/uport-project/ethr-did
 const kSecp256k1SignatureAuthentication2018 = 'Secp256k1SignatureAuthentication2018'
 
+const kEcDsaSha256PublicKey2018 = 'EcDsaSha256PublicKey2018'
+
 // ld-cryptosuite-registry set
 const registry = new Set([
   kEd25519SignatureAuthentication2018,
@@ -31,7 +33,9 @@ const registry = new Set([
   kMerkleProof2017,
 
   kSecp256k1VerificationKey2018,
-  kSecp256k1SignatureAuthentication2018
+  kSecp256k1SignatureAuthentication2018,
+
+  kEcDsaSha256PublicKey2018
 ])
 
 // exported constants
@@ -44,7 +48,9 @@ Object.assign(registry, {
   kMerkleProof2017,
 
   kSecp256k1VerificationKey2018,
-  kSecp256k1SignatureAuthentication2018
+  kSecp256k1SignatureAuthentication2018,
+
+  kEcDsaSha256PublicKey2018
 })
 
 // exported values
@@ -58,6 +64,8 @@ Object.assign(registry, {
 
   Secp256k1VerificationKey2018: kSecp256k1VerificationKey2018,
   Secp256k1SignatureAuthentication2018: kSecp256k1SignatureAuthentication2018,
+
+  EcDsaSha256PublicKey2018: kEcDsaSha256PublicKey2018
 })
 
 // disable destructive methods
