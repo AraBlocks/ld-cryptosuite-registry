@@ -22,6 +22,7 @@ const kSecp256k1VerificationKey2018 = 'Secp256k1VerificationKey2018'
 const kSecp256k1SignatureAuthentication2018 = 'Secp256k1SignatureAuthentication2018'
 
 const kEcDsaSha256PublicKey2018 = 'EcDsaSha256PublicKey2018'
+const kEcDsaSha512PublicKey2018 = 'EcDsaSha512PublicKey2018'
 
 // ld-cryptosuite-registry set
 const registry = new Set([
@@ -35,7 +36,8 @@ const registry = new Set([
   kSecp256k1VerificationKey2018,
   kSecp256k1SignatureAuthentication2018,
 
-  kEcDsaSha256PublicKey2018
+  kEcDsaSha256PublicKey2018,
+  kEcDsaSha512PublicKey2018
 ])
 
 // exported constants
@@ -50,7 +52,8 @@ Object.assign(registry, {
   kSecp256k1VerificationKey2018,
   kSecp256k1SignatureAuthentication2018,
 
-  kEcDsaSha256PublicKey2018
+  kEcDsaSha256PublicKey2018,
+  kEcDsaSha512PublicKey2018
 })
 
 // exported values
@@ -65,7 +68,8 @@ Object.assign(registry, {
   Secp256k1VerificationKey2018: kSecp256k1VerificationKey2018,
   Secp256k1SignatureAuthentication2018: kSecp256k1SignatureAuthentication2018,
 
-  EcDsaSha256PublicKey2018: kEcDsaSha256PublicKey2018
+  EcDsaSha256PublicKey2018: kEcDsaSha256PublicKey2018,
+  EcDsaSha512PublicKey2018: kEcDsaSha512PublicKey2018
 })
 
 // disable destructive methods
