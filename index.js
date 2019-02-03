@@ -25,6 +25,10 @@ const kSecp256k1SignatureAuthentication2018 = 'Secp256k1SignatureAuthentication2
 const kES256Signature2018 = 'ES256Signature2018'
 const kES256VerificationKey2018 = 'ES256VerificationKey2018'
 
+// https://github.com/uport-project/nacl-did
+const kCurve25519EncryptionPublicKey = 'Curve25519EncryptionPublicKey'
+const kED25519SignatureVerification = 'ED25519SignatureVerification'
+
 // ld-cryptosuite-registry set
 const registry = new Set([
   kEd25519SignatureAuthentication2018,
@@ -38,7 +42,11 @@ const registry = new Set([
   kSecp256k1SignatureAuthentication2018,
 
   kES256Signature2018,
-  kES256VerificationKey2018
+  kES256VerificationKey2018,
+
+  // uport
+  kCurve25519EncryptionPublicKey,
+  kED25519SignatureVerification,
 ])
 
 // exported constants
@@ -54,7 +62,11 @@ Object.assign(registry, {
   kSecp256k1SignatureAuthentication2018,
 
   kES256Signature2018,
-  kES256VerificationKey2018
+  kES256VerificationKey2018,
+
+  //u port
+  kCurve25519EncryptionPublicKey,
+  kED25519SignatureVerification,
 })
 
 // exported values
@@ -70,7 +82,11 @@ Object.assign(registry, {
   Secp256k1SignatureAuthentication2018: kSecp256k1SignatureAuthentication2018,
 
   ES256Signature2018: kES256Signature2018,
-  ES256VerificationKey2018: kES256VerificationKey2018
+  ES256VerificationKey2018: kES256VerificationKey2018,
+
+  // uport
+  Curve25519EncryptionPublicKey: kCurve25519EncryptionPublicKey,
+  ED25519SignatureVerification: kED25519SignatureVerification,
 })
 
 // disable destructive methods

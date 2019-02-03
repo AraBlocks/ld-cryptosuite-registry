@@ -23,6 +23,7 @@ const {
   kEd25519VerificationKey2018,
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
+  Curve25519EncryptionPublicKey,
 } = require('ld-cryptosuite-registry')
 ```
 
