@@ -11,6 +11,7 @@ const kEdDsaSAPublicKeySecp256k1 = 'EdDsaSAPublicKeySecp256k1'
 
 // https://w3c-dvcg.github.io/lds-rsa2018/
 const kRsaVerificationKey2018 = 'RsaVerificationKey2018'
+const kRsaSignature2018 = 'RsaSignature2018'
 
 // https://w3c-dvcg.github.io/lds-merkleproof2017/
 const kMerkleProof2017 = 'MerkleProof2017'
@@ -36,6 +37,7 @@ const registry = new Set([
 
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
+  kRsaSignature2018,
   kMerkleProof2017,
 
   kSecp256k1VerificationKey2018,
@@ -56,6 +58,7 @@ Object.assign(registry, {
 
   kEdDsaSAPublicKeySecp256k1,
   kRsaVerificationKey2018,
+  kRsaSignature2018,
   kMerkleProof2017,
 
   kSecp256k1VerificationKey2018,
@@ -76,6 +79,7 @@ Object.assign(registry, {
 
   EdDsaSAPublicKeySecp256k1: kEdDsaSAPublicKeySecp256k1,
   RsaVerificationKey2018: kRsaVerificationKey2018,
+  RsaSignature2018: kRsaSignature2018,
   MerkleProof2017: kMerkleProof2017,
 
   Secp256k1VerificationKey2018: kSecp256k1VerificationKey2018,
